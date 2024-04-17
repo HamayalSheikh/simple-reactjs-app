@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t scdlab10'
+                bat 'docker build -t scdlab10 .'
             }
         }
 
